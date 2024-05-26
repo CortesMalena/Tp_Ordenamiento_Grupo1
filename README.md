@@ -34,8 +34,8 @@ Este programa mustra un ejemplo de como utilizar el menu
 ~~~
 
 ## :snake: Link al proyecto
-- [QuickSort](https://onlinegdb.com/q3RGvZwgB)
-- [Coreografia](https://onlinegdb.com/q3RGvZwgB)
+- [QuickSort](https://onlinegdb.com/OPZZ4EQI3)
+- [Coreografia](https://onlinegdb.com/aHRJ6hFYK)
 
 
 

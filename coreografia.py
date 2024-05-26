@@ -120,6 +120,7 @@ def quick_sort(numeros):
     
     return quick_sort(menores) + [pivote] + quick_sort(mayores) # Llama recursivamente a quick_sort con la lista menores y con la lista de mayores, 
                                                                     #y combina las listas ordenadas menores y mayores con el pivote en el medio.
+                                                                    
 def quick_sort_time(numeros):
     start_time = time.time()  # Tiempo de inicio
     tiempo = quick_sort(numeros) # Llama a la función quick_sort para ordenar la lista
