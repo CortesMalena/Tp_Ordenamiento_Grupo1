@@ -11,7 +11,7 @@ Grupo1
 ![Python](./img/img-danza.jpg)
 
 
-## Descripción 
+## Descripción :walking::
 En base a este video https://www.youtube.com/watch?v=kdtYU6VNfww&t=1s Se detallaron el paso a paso:
 Primera ronda:
 - Paso 1: El 0 y el 3 se enfrentan y cambian de posición.
