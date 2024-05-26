@@ -102,3 +102,32 @@ def selection_sort(numeros):
 
 ordenamiento = selection_sort(numeros_desordenados)
 #print(ordenados)
+
+def quick_sort(numeros):
+    if len(numeros) <= 1: # Verifica si la lista tiene solo un elemento
+        return numeros
+    
+    pivote = numeros[0] #selecciona el primer elemento como pivote
+    menores = [] # Lista vacia para los elementos menores o iguales al pivote
+    mayores = [] # Lista vacia para los elementos mayores al pivote
+    
+    # Iterar sobre los elementos de la lista (excepto el primero) para clasificar
+    for numero in numeros[1:]: #Recorre todos los elementos de la lista excepto el primero
+        if numero <= pivote: # Verifica si el elemento es menor o igual al pivote
+            menores.append(numero) # Agrega el elemento a la lista de elementos menores o iguales al pivote
+        else:
+            mayores.append(numero) # Agrega el elemento a la lista de elementos mayores al pivote
+    
+    return quick_sort(menores) + [pivote] + quick_sort(mayores) # Llama recursivamente a quick_sort con la lista menores y con la lista de mayores, 
+                                                                    #y combina las listas ordenadas menores y mayores con el pivote en el medio.
+def quick_sort_time(numeros):
+    start_time = time.time()  # Tiempo de inicio
+    tiempo = quick_sort(numeros) # Llama a la función quick_sort para ordenar la lista
+    end_time = time.time()  # Tiempo de finalización
+    elapsed_time = end_time - start_time  # Tiempo transcurrido
+    print("Tiempo de ejecución Algoritmo de quick Sort:", elapsed_time, "segundos")
+    return tiempo
+
+ordenados = quick_sort(numeros_desordenados)
+ordenados = quick_sort_time(numeros_desordenados)
+#print(ordenados)
