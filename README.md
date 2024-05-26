@@ -70,7 +70,8 @@ Algoritmo de ordenamiento rapido (QuickSort):
 - Desventajas: Su complejidad es mas grande que la de algunos algoritmos 
 
 ## Conclusion
-El algoritmo de Quick Sort se destaca como el más eficiente en términos de tiempo de ejecución para esta lista en específica. Aunque tiene una complejidad mas alta que los otros dos algoritmos, su rendimiento promedio es significativamente mejor que los otros dos algoritmos. Esto sugiere que, para casos generales de ordenamiento, Quick Sort es la mejor opcion debido a su eficiencia y rendimiento consistentemente alto. Sin embargo, la elección del algoritmo de ordenamiento también puede depender de otros factores, como la memoria disponible, la estabilidad del algoritmo y la facilidad de implementación. 
+El algoritmo de Quick Sort se destaca como el más eficiente en términos de tiempo de ejecución para esta lista en específica. Aunque tiene una complejidad mas alta que los otros dos algoritmos, su rendimiento promedio es significativamente mejor que los otros dos algoritmos. Esto sugiere que, para casos generales de ordenamiento, Quick Sort es la mejor opcion debido a su eficiencia y rendimiento consistentemente alto.
+Sin embargo, la elección del algoritmo de ordenamiento también puede depender de otros factores, como la memoria disponible, la estabilidad del algoritmo y la facilidad de implementación. 
 
 ## :snake: Link al proyecto
 - [QuickSort](https://onlinegdb.com/OPZZ4EQI3)
