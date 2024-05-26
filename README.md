@@ -27,7 +27,8 @@ Grupo1
 ~~~
 
 ## :walking: Descripción:
-En base a este video https://www.youtube.com/watch?v=kdtYU6VNfww&t=1s Se detallaron el paso a paso:
+En base a este video https://www.youtube.com/watch?v=kdtYU6VNfww&t=1s se detallaron el paso a paso:
+
 Primera ronda :one: :
 - Paso 1: El 0 y el 3 se enfrentan y cambian de posición.
 - Paso 2: El 3 y el 1 cambian de lugar.
