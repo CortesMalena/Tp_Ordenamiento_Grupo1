@@ -82,3 +82,23 @@ def ordenamiento_danza(numeros): #Algoritmo de burbuja
 
 ordenados = ordenamiento_danza(numeros_desordenados)
 #print(ordenados) 
+
+def selection_sort(numeros):
+    start_time = time.time()  # tiempo de inicio
+    
+    lista_numeros = len(numeros) # Esto guarda la longitud de la lista
+    for i in range(lista_numeros): # Se itera sobre todos los elementos
+        min_idx = i # El primer elemento de la lista es el menor
+        for j in range(i+1, lista_numeros): # Se itera sobre todos los elementos
+            if numeros[j] < numeros[min_idx]: # Verifica si el elemento actual es menor que el menor
+                min_idx = j # El elemento actual es el menor
+        numeros[i], numeros[min_idx] = numeros[min_idx], numeros[i] # Realiza el intercambio del elemento menor con el elemento actual
+    
+    end_time = time.time()  # Finaliza el tiempo
+    elapsed_time = end_time - start_time  # Calcula el tiempo transcurrido
+    print("Tiempo de ejecución de Algoritmo de Selección:", elapsed_time, "segundos")
+    
+    return numeros
+
+ordenamiento = selection_sort(numeros_desordenados)
+#print(ordenados)
