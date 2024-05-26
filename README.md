@@ -52,7 +52,7 @@ Algoritmo de Danza
 - Ventajas: Es un algoritmo simple y facil de entender y es para listas chicas o casi ordenadas
 - Desventajas: Tiene un mal rendimiento con listas grandes debido a su complejidad cuadratica
 
-Algoritmo de Seleccion:
+Algoritmo de Seleccion
 - Tiempo de ejecucion: 0,026 Segundos
 - Numero de comparaciones: Similar al algoritmo de Danza, el algoritmo de Selección también
   realiza comparaciones entre elementos para encontrar el elemento mínimo en cada
@@ -61,7 +61,7 @@ Algoritmo de Seleccion:
 - Desventajas: Es mas eficiente que el algoritmo anterior pero tiene mas complejidad cuadratica, lo que hace que sea mas a corde con listas mas
   grandes
 
-Algoritmo de ordenamiento rapido (QuickSort):
+Algoritmo de ordenamiento rapido (QuickSort)
 - Tiempo de ejecucion: 0,015 Segundos
 - Numero de comparaciones: Utiliza un enfoque de dividir y conquistar, implica comparaciones menos directas que los anteriores. Divide elementos
   para posteriormente ser comparados entre si
